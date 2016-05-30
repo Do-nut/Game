@@ -16,6 +16,20 @@ public class Sprite {
 		load();
 	}
 	
+	
+	
+	public void getSize(){
+		
+	}
+	
+	public void getX() {
+		
+	}
+	
+	public void getY(){
+		
+	}
+	
 	private void load() {
 		for (int y = 0; y < size; y++) {
 			for (int x = 0; x < size; x++) {

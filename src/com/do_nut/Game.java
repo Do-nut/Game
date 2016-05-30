@@ -16,7 +16,7 @@ import com.do_nut.game.map.levels.TestGeneration;
 
 public class Game extends Canvas implements Runnable {
 	private static final long serialVersionUID = 8623937059380569597L;
-	public static final int width = 200, height = width, scale = 2;
+	public static final int width = 200, height = width, scale = 3;
 	public static final String title = "ScienceFair2016Game", version="0.1", author="Do-nut";
 	private Thread gameThread=new Thread(this, title);
 	public boolean running=false;

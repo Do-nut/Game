@@ -9,7 +9,6 @@ public class Tiles {
 	public static Tile tallgrass = new TallGrassTile1();
 	public static Tile tallgrass2 = new TallGrassTile2();
 	public static Tile brick = new BrickTile1();
-	public static Tile blank = new BlankTile();
-	public static Tile mapBounds = new MapTile();
 	public static Tile water = new WaterTile();
+	public static Tile blank = new BlankTile();
 }
