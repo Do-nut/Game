@@ -13,7 +13,6 @@ import com.do_nut.game.graphics.GameGraphics;
 import com.do_nut.game.input.KeyboardInput;
 import com.do_nut.game.map.Level;
 import com.do_nut.game.map.levels.TestGeneration;
-import com.do_nut.game.menu.MainMenu;
 
 public class Game extends Canvas implements Runnable {
 	private static final long serialVersionUID = 8623937059380569597L;
@@ -58,7 +57,14 @@ public class Game extends Canvas implements Runnable {
 	
 	public static void main(String[] args){
 		System.out.println(title+" running!");
-		new MainMenu();
+		Game game = new Game();
+		game.frame.setResizable(false);
+		game.frame.getContentPane().add(game);
+		game.frame.pack();
+		game.frame.setDefaultCloseOperation(3);
+		game.frame.setLocationRelativeTo(null);
+		game.frame.setVisible(true);
+		game.start();
 		
 		
 		
