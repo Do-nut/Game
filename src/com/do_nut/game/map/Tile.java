@@ -3,7 +3,7 @@ package com.do_nut.game.map;
 import java.awt.event.KeyListener;
 
 import com.do_nut.game.graphics.GameGraphics;
-import com.do_nut.game.graphics.Sprite;
+import com.do_nut.game.graphics.sprites.Sprite;
 
 public class Tile {
 

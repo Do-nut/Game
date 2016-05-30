@@ -1,7 +1,7 @@
 package com.do_nut.game.entity;
 
 import com.do_nut.game.graphics.GameGraphics;
-import com.do_nut.game.graphics.Sprite;
+import com.do_nut.game.graphics.sprites.Sprite;
 
 public abstract class EntityMob extends Entity {
 

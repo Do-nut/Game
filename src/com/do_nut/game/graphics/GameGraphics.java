@@ -2,6 +2,7 @@ package com.do_nut.game.graphics;
 
 import java.util.Random;
 
+import com.do_nut.game.graphics.sprites.Sprite;
 import com.do_nut.game.map.Tile;
 
 public class GameGraphics {

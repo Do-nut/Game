@@ -1,8 +1,5 @@
 package com.do_nut.game.graphics.sprites;
 
-import com.do_nut.game.graphics.Sprite;
-import com.do_nut.game.input.SpriteLoader;
-
 public class Sprites {
 
 	public static SpriteLoader tiles = new SpriteLoader("/textures/sheets/sprites.png", 256);

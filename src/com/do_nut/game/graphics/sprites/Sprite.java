@@ -1,6 +1,4 @@
-package com.do_nut.game.graphics;
-
-import com.do_nut.game.input.SpriteLoader;
+package com.do_nut.game.graphics.sprites;
 
 public class Sprite {
 
